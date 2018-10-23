@@ -34,7 +34,7 @@ int PlayerPoints()
 			cout << "Your pig position is: " << PigFace[randPiggie] << endl;
 
 		 if (randPiggie == 0)
-		 {
+		 {// Player Score 
 			 PlayerScore = PlayerScore + 0;
 			 cout << "You get 0 points\n";
 			 cout << "Your Score is " << PlayerScore << endl;
@@ -216,7 +216,7 @@ int CompPoint()
 	cout << "Computers pig position is: " << PigFace[randPiggie] << endl;
 
 	if (randPiggie == 0)
-	{
+	{// Computer Scores 
 		CompScore = CompScore + 0;
 		cout << "Computer got 0 points\n";
 		cout << "Computers Score is " << CompScore << endl;
